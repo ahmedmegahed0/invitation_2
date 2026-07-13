@@ -8,7 +8,6 @@ import MemoryFilm from './sections/MemoryFilm';
 import Gallery from './sections/Gallery';
 import Details from './sections/Details';
 import Countdown from './sections/Countdown';
-import Wishes from './sections/Wishes';
 import FinalScene from './sections/FinalScene';
 import Footer from './components/Footer';
 
@@ -44,7 +43,6 @@ function App() {
           <Gallery />
           <Details />
           <Countdown />
-          <Wishes />
           <FinalScene />
           <Footer />
         </>

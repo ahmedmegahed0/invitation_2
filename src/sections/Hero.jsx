@@ -58,7 +58,8 @@ export default function Hero() {
           className="flex flex-col items-center gap-2"
         >
           <p className="font-poppins uppercase tracking-widest text-sm md:text-base">Friday</p>
-          <p className="font-cinzel text-3xl md:text-4xl text-champagne">17 July 2026</p>
+          <p className="font-cinzel text-3xl md:text-4xl text-champagne mb-2">17 July 2026</p>
+          <p className="font-poppins uppercase tracking-[0.2em] text-xs md:text-sm text-white/80">Al Qasr, Ashmoun</p>
         </motion.div>
       </div>
 
