@@ -34,7 +34,7 @@ export default function Details() {
               <div className="flex flex-col items-center">
                 <CalendarHeart className="w-8 h-8 text-champagne mb-4" />
                 <h3 className="font-cormorant text-2xl font-semibold text-gray-800">When</h3>
-                <p className="font-poppins text-gray-600 mt-2">Friday<br/>17 July 2026<br/>6:00 PM</p>
+                <p className="font-poppins text-gray-600 mt-2">Friday<br/>17 July 2026<br/>9:00 PM</p>
               </div>
 
               {/* Venue */}
@@ -44,15 +44,6 @@ export default function Details() {
                 <p className="font-poppins text-gray-600 mt-2">القصر Hall<br/>Ashmoun<br/>Egypt</p>
               </div>
             </div>
-            
-            <motion.div 
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              className="mt-12 inline-block px-8 py-3 bg-champagne text-white font-poppins uppercase tracking-widest text-sm rounded-full shadow-lg hover:bg-yellow-600 transition-colors cursor-pointer"
-            >
-              Get Directions
-            </motion.div>
           </div>
         </motion.div>
       </div>
