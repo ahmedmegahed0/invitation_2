@@ -37,10 +37,10 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5, delay: 0.5, ease: "easeOut" }}
-          className="font-cinzel text-5xl md:text-6xl lg:text-8xl text-glow mb-6 flex items-center justify-center flex-wrap gap-2 md:gap-4"
+          className="font-cinzel text-6xl md:text-8xl lg:text-9xl text-glow mb-6 flex flex-col items-center justify-center gap-2"
         >
           <span>Ali</span>
-          <span className="text-champagne font-light text-4xl md:text-6xl lg:text-7xl">|</span>
+          <span className="text-champagne font-light text-4xl md:text-6xl">&</span>
           <span>Nourhan</span>
         </motion.h1>
 

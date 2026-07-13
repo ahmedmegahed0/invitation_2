@@ -63,7 +63,7 @@ export default function LoadingScreen({ onComplete }) {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-cinzel text-4xl md:text-5xl text-white tracking-[0.1em] mb-6"
         >
-          Ali <span className="text-champagne font-sans font-light mx-2">|</span> Nourhan
+          Ali <span className="text-champagne font-sans font-light mx-2">&</span> Nourhan
         </motion.h1>
 
         <motion.div
