@@ -52,7 +52,7 @@ export default function FinalScene() {
             We Can't Wait To Celebrate With You
           </p>
           <div className="font-cinzel text-3xl md:text-5xl text-champagne text-glow">
-            Ali & Norhan
+            Ali & Nourhan
           </div>
         </motion.div>
       </div>

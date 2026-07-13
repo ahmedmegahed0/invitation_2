@@ -27,7 +27,7 @@ export default function Details() {
               <div className="flex flex-col items-center">
                 <Heart className="w-8 h-8 text-champagne mb-4" />
                 <h3 className="font-cormorant text-2xl font-semibold text-gray-800">Bride & Groom</h3>
-                <p className="font-poppins text-gray-600 mt-2">Norhan <br/> & <br/> Ali</p>
+                <p className="font-poppins text-gray-600 mt-2">Nourhan <br/> & <br/> Ali</p>
               </div>
 
               {/* Date */}
@@ -42,6 +42,14 @@ export default function Details() {
                 <MapPin className="w-8 h-8 text-champagne mb-4" />
                 <h3 className="font-cormorant text-2xl font-semibold text-gray-800">Where</h3>
                 <p className="font-poppins text-gray-600 mt-2">القصر Hall<br/>Ashmoun<br/>Egypt</p>
+                <a 
+                  href="https://maps.app.goo.gl/nVx9PfJvHZ11pxcY8?g_st=aw" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mt-4 text-xs font-poppins uppercase tracking-widest text-champagne hover:text-yellow-600 border-b border-champagne/50 hover:border-yellow-600 pb-1 transition-colors"
+                >
+                  View on Map
+                </a>
               </div>
             </div>
           </div>

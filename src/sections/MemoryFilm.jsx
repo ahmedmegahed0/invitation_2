@@ -8,7 +8,7 @@ const frames = [
   { id: 5, img: '/rings.png', title: 'First Dance' },
   { id: 6, img: '/bouquet.png', title: 'Wedding Cake' },
   { id: 7, img: '/hall.png', title: 'Celebration' },
-  { id: 8, img: '/hero.png', title: 'Ali & Norhan - 17 July 2026' }
+  { id: 8, img: '/hero.png', title: 'Ali & Nourhan - 17 July 2026' }
 ];
 
 // Duplicate frames for seamless infinite scrolling

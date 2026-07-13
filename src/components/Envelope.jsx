@@ -66,7 +66,7 @@ export default function Envelope({ onOpen }) {
             <div className="text-center p-6 border border-champagne/20 m-2 w-full h-full flex flex-col items-center justify-center bg-ivory/50">
               <h2 className="font-cormorant text-2xl md:text-3xl text-gray-800 italic">You're Invited</h2>
               <div className="w-12 h-[1px] bg-champagne my-3"></div>
-              <p className="font-cinzel text-sm md:text-base text-gray-700">Ali & Norhan</p>
+              <p className="font-cinzel text-sm md:text-base text-gray-700">Ali & Nourhan</p>
               <p className="font-poppins text-xs text-gray-500 mt-2 tracking-widest">17 July 2026</p>
             </div>
           </motion.div>
